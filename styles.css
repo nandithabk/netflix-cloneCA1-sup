@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;    
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+ background-color: #141414;
+ color: white;
+ background-image: url(assets/Title-Image.png);
+ background-repeat: no-repeat;
+ background-size: 100%;
+}
+
+#navbar{
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#logo img{
+ height: 25px;
+ width: 120px;
+}
+
+#mylist{
+    width:470px;
+}
+
+#netlogo{
+    height: 30px;
+    width: 15px;
+    margin-top: 200px;
+    
+}
+
+#bg-text{
+    margin-left: 2%;
+    align-items: center;
+}
+
+h1{
+    font-size: 120px;
+    font-weight: 500px;
+    margin-top: 1px;
+}
+
+button{
+    margin-top: 0px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40;
+    width: auto;
+    padding: 7px;
+    align-items: center;
+}
+
+#moreinfo{
+    background-color: rgba(255, 255, 255, 0.605);
+    color: white;
+}
+
+#pl,#mi{
+   padding: 1px;
+   height: 15px;
+   align-self: center;
+}
+
+#add{
+    margin-left: 97%;
+}
+
+main{
+    margin-left: 2%;
+}
+
+#row-1{
+    height: 200px;
+    padding-left: 10px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    width: 100%;
+ }
+
+#see-again,#top10,#tn,#sf
+{
+    padding-left: 2px;
+    height: 20px;
+}
+
+#div1{
+    padding-left: 50px;
+}
+
+.arrow{
+    height: 15px;
+    width: 15px;
+}
+
+#three,#four{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.alignment{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.connect{
+    filter: brightness(6);
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+#connect{
+    padding-left: 25%;
+    padding-top: 150px;
+    
+}
+
+#one{
+   margin-top: 200px;
+}
+
+#two{
+    height: 200px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.align{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    justify-content: space-between;
+}
+
+#div1,#grp1,#grp2,#grp3,#grp4,#grp5,#grp6{
+    display: flex;
+
+}
